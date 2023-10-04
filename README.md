@@ -1,4 +1,4 @@
-# def chat():
+def chat():
     """ in test mode, we don't to create the backward path
     """
     _, enc_vocab = data.load_vocab(os.path.join(config.PROCESSED_PATH, 'vocab.enc'))
